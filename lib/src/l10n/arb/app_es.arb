@@ -1,0 +1,9 @@
+{
+    "@@locale": "es",
+    "counterAppBarTitle": "Contador",
+    "@counterAppBarTitle": {
+        "description": "Texto mostrado en la AppBar de la página del contador"
+    },
+    "getStarted": "Vamos a empezar",
+    "onboardingText": "Crea chats de Whatsapp sin crear contactos"
+}

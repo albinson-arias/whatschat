@@ -8,12 +8,15 @@ environment:
 
 dependencies:
   bloc: ^8.1.2
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.3
   flutter_localizations:
     sdk: flutter
+  flutter_svg: ^2.0.7
   go_router: ^10.1.0
+  google_fonts: ^5.1.0
   intl: ^0.18.0
   shared_preferences: ^2.2.0
 
@@ -27,3 +30,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   generate: true
+
+  assets:
+    - assets/
