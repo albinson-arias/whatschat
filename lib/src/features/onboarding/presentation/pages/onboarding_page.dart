@@ -49,7 +49,7 @@ class OnboardingPage extends StatelessWidget {
               text: context.l10n.getStarted,
               onPressed: () => _onGetStartedPressed(context),
             ),
-          )
+          ),
         ],
       ),
     );
