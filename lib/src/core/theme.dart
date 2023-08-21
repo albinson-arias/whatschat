@@ -10,7 +10,6 @@ ThemeData appTheme() {
     ),
     scaffoldBackgroundColor: AppColors.background,
     colorScheme: ColorScheme.fromSwatch(
-      primaryColorDark: Colors.green[700],
       accentColor: AppColors.primary,
       backgroundColor: AppColors.background,
       cardColor: Colors.white,
