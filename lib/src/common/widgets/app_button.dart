@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:whatschat/src/core/colors.dart';
 
 class AppButton extends StatelessWidget {
-  const AppButton({required this.onPressed, required this.text, super.key});
+  const AppButton({required this.text, this.onPressed, super.key});
 
-  final VoidCallback onPressed;
+  final VoidCallback? onPressed;
   final String text;
 
   @override
@@ -22,7 +22,7 @@ class AppButton extends StatelessWidget {
         text,
         style: const TextStyle(
           fontSize: 16,
-          fontWeight: FontWeight.bold,
+          fontWeight: FontWeight.w700,
         ),
       ),
     );

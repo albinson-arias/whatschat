@@ -1,9 +1,14 @@
 {
     "@@locale": "en",
+    "aChatWithThisNumber": "A chat with this number will be opened in WhatsApp",
+    "cantOpenWhatsApp": "Could not launch WhatsApp",
     "counterAppBarTitle": "Counter",
     "@counterAppBarTitle": {
         "description": "Text shown in the AppBar of the Counter Page"
     },
     "getStarted": "Get Started",
-    "onboardingText": "Start WhatsApp chats without saving the number"
+    "goToChat": "Go to chat",
+    "hello": "Hello",
+    "onboardingText": "Start WhatsApp chats without saving the number",
+    "whatsappNumber": "WhatsApp number"
 }

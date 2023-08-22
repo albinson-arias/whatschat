@@ -1,9 +1,14 @@
 {
     "@@locale": "es",
+    "aChatWithThisNumber": "Este numero se abrirá en WhatsApp",
+    "cantOpenWhatsApp": "No se puede abrir WhatsApp",
     "counterAppBarTitle": "Contador",
     "@counterAppBarTitle": {
         "description": "Texto mostrado en la AppBar de la página del contador"
     },
     "getStarted": "Vamos a empezar",
-    "onboardingText": "Crea chats de Whatsapp sin crear contactos"
+    "goToChat": "Ir al chat",
+    "hello": "Hola",
+    "onboardingText": "Crea chats de Whatsapp sin crear contactos",
+    "whatsappNumber": "Numero de Whatsapp"
 }
