@@ -20,7 +20,7 @@ class App extends StatelessWidget {
         theme: appTheme(),
         localizationsDelegates: const [
           ...AppLocalizations.localizationsDelegates,
-          PhoneFieldLocalization.delegate
+          PhoneFieldLocalization.delegate,
         ],
         supportedLocales: AppLocalizations.supportedLocales,
         debugShowCheckedModeBanner: false,
