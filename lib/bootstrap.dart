@@ -4,6 +4,8 @@ import 'dart:developer';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_statusbarcolor_ns/flutter_statusbarcolor_ns.dart';
+import 'package:whatschat/src/core/colors.dart';
 
 class AppBlocObserver extends BlocObserver {
   const AppBlocObserver();
@@ -33,6 +35,22 @@ Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
+
+  // change the status bar color to material color [AppColors.background]
+  await FlutterStatusbarcolor.setStatusBarColor(AppColors.background);
+  if (useWhiteForeground(AppColors.background)) {
+    await FlutterStatusbarcolor.setStatusBarWhiteForeground(true);
+  } else {
+    await FlutterStatusbarcolor.setStatusBarWhiteForeground(false);
+  }
+
+  // change the navigation bar color to material color [AppColors.background]
+  await FlutterStatusbarcolor.setNavigationBarColor(AppColors.background);
+  if (useWhiteForeground(AppColors.background)) {
+    await FlutterStatusbarcolor.setNavigationBarWhiteForeground(true);
+  } else {
+    await FlutterStatusbarcolor.setNavigationBarWhiteForeground(false);
+  }
 
   runApp(await builder());
 }
