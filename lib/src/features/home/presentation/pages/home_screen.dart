@@ -157,7 +157,7 @@ class HomePageState extends State<HomePage> {
             ),
             const Spacer(
               flex: 6,
-            )
+            ),
           ],
         ),
       ),

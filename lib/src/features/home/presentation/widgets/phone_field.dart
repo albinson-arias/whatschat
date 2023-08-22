@@ -13,7 +13,7 @@ class PhoneFieldView extends StatelessWidget {
 
   PhoneNumberInputValidator? _getValidator() {
     final validators = <PhoneNumberInputValidator>[
-      PhoneValidator.validMobile()
+      PhoneValidator.validMobile(),
     ];
     return PhoneValidator.compose(validators);
   }
