@@ -33,7 +33,7 @@ void main() {
 
         // Act
         await tester.pumpAndSettle();
-        await tester.enterText(phoneField, '9294199470');
+        await tester.enterText(phoneField, '9294139475');
         await tester.pumpAndSettle();
         await Future<void>.delayed(const Duration(milliseconds: 250));
         await tester.pumpAndSettle();
@@ -94,7 +94,7 @@ void main() {
         final phoneField = find.byType(PhoneFieldView);
         mock
           ..setLaunchExpectations(
-            url: 'https://wa.me/19294199470?text=Hello',
+            url: 'https://wa.me/19294139475?text=Hello',
             useSafariVC: false,
             useWebView: false,
             universalLinksOnly: false,
@@ -108,7 +108,7 @@ void main() {
 
         // Act
         await tester.pumpAndSettle();
-        await tester.enterText(phoneField, '9294199470');
+        await tester.enterText(phoneField, '9294139475');
         await tester.pumpAndSettle();
         await Future<void>.delayed(const Duration(milliseconds: 250));
         await tester.pumpAndSettle();
@@ -142,7 +142,7 @@ void main() {
         final phoneField = find.byType(PhoneFieldView);
         mock
           ..setLaunchExpectations(
-            url: 'https://wa.me/19294199470?text=Hello',
+            url: 'https://wa.me/19294139475?text=Hello',
             useSafariVC: false,
             useWebView: false,
             universalLinksOnly: false,
@@ -156,7 +156,7 @@ void main() {
 
         // Act
         await tester.pumpAndSettle();
-        await tester.enterText(phoneField, '9294199470');
+        await tester.enterText(phoneField, '9294139475');
         await tester.pumpAndSettle();
         await Future<void>.delayed(const Duration(milliseconds: 250));
         await tester.pumpAndSettle();
