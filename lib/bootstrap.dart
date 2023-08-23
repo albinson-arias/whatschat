@@ -46,11 +46,8 @@ Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
 
   // change the navigation bar color to material color [AppColors.background]
   await FlutterStatusbarcolor.setNavigationBarColor(AppColors.background);
-  if (useWhiteForeground(AppColors.background)) {
-    await FlutterStatusbarcolor.setNavigationBarWhiteForeground(true);
-  } else {
-    await FlutterStatusbarcolor.setNavigationBarWhiteForeground(false);
-  }
+
+  await FlutterStatusbarcolor.setNavigationBarWhiteForeground(false);
 
   runApp(await builder());
 }
