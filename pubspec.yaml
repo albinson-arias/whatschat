@@ -17,7 +17,7 @@ dependencies:
   flutter_statusbarcolor_ns: ^0.5.0
   flutter_svg: ^2.0.7
   google_fonts: ^6.1.0
-  go_router: ^11.1.2
+  go_router: ^12.0.0
   intl: ^0.18.0
   phone_form_field: ^8.1.0
   shared_preferences: ^2.2.0
